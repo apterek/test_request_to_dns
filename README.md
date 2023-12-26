@@ -1,7 +1,13 @@
 # test_request_to_dns
+
+### In line 11 set self DNS servers which you want test:
+```python
+DNS_SERVERS = ["192.168.56.102", "192.168.56.103"]
+```
+
 ### Run the script as root because you need to access system sockets
 
-### First of all, install the necessary libraries
+### Install the necessary libraries
 ```commandline
    pip3 install -r requirements.txt
 ```
