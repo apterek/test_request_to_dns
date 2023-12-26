@@ -71,7 +71,7 @@ def main(domain_count: int, count_thread: int) -> None:
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='A simple script with argparse')
+    parser = argparse.ArgumentParser(description='A simple script to send dns udp requests in multithreading')
 
     # Adding optional arguments
     parser.add_argument('-d', '--domains', type=int, help='domains count')
