@@ -7,7 +7,7 @@ from scapy.all import IP, UDP, DNS, DNSQR, send
 import random
 from faker import Faker
 
-REQUEST_TYPE = ["NS", "A", "MX", "TXT", "SOA", "CNAME", "AAAA"]
+REQUEST_TYPE = ["NS", "A", "MX", "TXT", "CNAME", "AAAA"]
 DNS_SERVERS = ["192.168.56.102", "192.168.56.103"]
 fake = Faker()
 
