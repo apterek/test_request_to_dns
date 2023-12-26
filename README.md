@@ -1,12 +1,12 @@
 # test_request_to_dns
-### First of all, install the necessary libraries
+### Run the script as root because you need to access system sockets
 
+### First of all, install the necessary libraries
 ```commandline
    pip3 install -r requirements.txt
 ```
 
-### Run the script as root because you need to access system sockets
-Example:
+Example run script (10,000 domains will be generated and run in 10 threads):
 ```commandline
   python3 requester.py -d 10000 -t 10
 ```
